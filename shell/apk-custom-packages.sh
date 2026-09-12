@@ -65,6 +65,13 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openclash luci-compat kmod-tun kmod-i
 # 自定义命令
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-commands-zh-cn"
 
+#===========================USB驱动支持==============================
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-mii"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-cdc-ether"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-net-rndis"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-usb-storage"
+
 #===========================以下imm仓库内的软件==============================↓
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3cat-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3ginfo-lite-zh-cn"
